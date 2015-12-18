@@ -1,0 +1,3 @@
+[submodule "pyhs2"]
+	path = pyhs2
+	url = https://github.com/BradRuderman/pyhs2.git
