@@ -26,13 +26,7 @@ if __name__=="__main__":
     str(randrange(1,256)),str(randrange(1,256))])
 
 try:
-    if os.path.isfile(path):
-        with open(path, "r") as file:
-            for line in file:
-                array.append(line)
-            file.close()
-
-    file = open(path, "w")
+    file = open(path, "a")
 
     new_line = time + "|" + ip + "|" + country
 
@@ -41,5 +35,5 @@ try:
     file.writelines(array)
     file.close()
 
-except IOError:
-    print "There was an error while processing the file!"
+except IOError, e:
+    print str(e)
