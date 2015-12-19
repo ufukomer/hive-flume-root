@@ -1,1 +1,1 @@
-#Refine and Visualize Server Log Data
+#Analysis Collected Server Log Data
