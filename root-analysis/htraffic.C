@@ -4,15 +4,16 @@ void htraffic()
 {
     const Int_t nc = 9;
     char *country[nc] = {"TR", "SO", "MZ", "JP", "VU", "EG", "QA", "YE", "BO"};
-    TCanvas *c1 = new TCanvas("c1","Root Analysis", 10, 10, 900, 500);
-    c1->SetGrid();
-    c1->SetTopMargin(0.15);
-    TH1F *h = new TH1F("h","Site Traffic By Country", 3, 0, 3);
-    h->SetStats(0);
-    h->SetFillColorAlpha(kAzure-7, 0.35);
-    h->SetBit(TH1::kCanRebin);
 
-    ifstream inp;
+    TCanvas *c1 = new TCanvas("c1","Root Analysis", 10, 10, 900, 500);
+    c1 -> SetGrid();
+    c1 -> SetTopMargin(0.15);
+
+    TH1F *h = new TH1F("h","Site Traffic By Country", 3, 0, 3);
+    h -> SetStats(0);
+    h -> SetFillColorAlpha(kAzure-7, 0.35);
+    h -> SetBit(TH1::kCanRebin);
+
     int x;
     char *path_p, *path_s;
 
@@ -39,6 +40,6 @@ void htraffic()
         inp.close();
     }
 
-    h->LabelsDeflate();
-    h->Draw();
+    h -> LabelsDeflate();
+    h -> Draw();
 }
