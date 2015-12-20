@@ -54,7 +54,7 @@ Hive Client `pyhs2` executes query via HiveServer2 Thrift API then fetches the q
 
 To install `pyhs2` dependencies run `python setup.py install` command in `./pyhs2` directory.
 
-In the root-analysis, run `python generate_data.py` command and it's done, the data file are in `./data` directory.
+In the root-analysis, run `python generate_data.py` command and it's done, the data files are in `./data` directory.
 
 
 ### Visualization with Root
