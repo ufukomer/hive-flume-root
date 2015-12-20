@@ -58,7 +58,7 @@ In the root-analysis, run `python generate_data.py` command and it's done, the d
 
 
 ### Visualization with Root
-CERN's Root is a great framework to analysis, especially for scientific analyses. `root htraffic.C` command will cause our histrogram to emerge.
+CERN's Root is a great framework to analysis, especially for scientific analyses. `root htraffic.C` command will cause our histogram to emerge.
 
 ![root_analysis](https://github.com/ufukomer/ufukomer.github.io/blob/master/img/hive-flume-root/root_analysis.png)
 
