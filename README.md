@@ -65,5 +65,5 @@ CERN's Root is a great framework to analysis, especially for scientific analyses
 ---
 
 #### References
-1. [FlumeUserGuide](https://flume.apache.org/FlumeUserGuide.html)
+1. [Flume User Guide](https://flume.apache.org/FlumeUserGuide.html)
 2. [How to Refine and Visualize Server Log Data](http://hortonworks.com/hadoop-tutorial/how-to-refine-and-visualize-server-log-data/)
