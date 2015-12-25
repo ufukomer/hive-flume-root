@@ -34,7 +34,7 @@ void htraffic()
         }
 
         while (inp >> x) {
-            h->Fill(country[i], x);
+            h -> Fill(country[i], x);
         }
 
         inp.close();
