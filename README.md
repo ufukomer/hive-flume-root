@@ -11,7 +11,7 @@ I'm using WinSCP to access server for better understanding. You can learn your s
 
 ![win_scp](https://github.com/ufukomer/ufukomer.github.io/blob/master/img/hive-flume-root/win_scp.png)
 
-To install Flume, type the command below. Even though it was already installed at first time I've started virtual machine.
+To install Flume, type the command below. Even though it was already installed at the first time I've started virtual machine.
 
 ```
 yum install –y flume
