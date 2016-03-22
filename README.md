@@ -49,8 +49,8 @@ As you can see from the image above, I get an error firstly. Later on, succeeded
 
 Eventually, the data residing in the HDFS peacefully...
 
-### Fetching Data for Visualization with Hive Client
-Hive Client `pyhs2` executes query via HiveServer2 Thrift API then fetches the query result. At the end, it stores data files according to query result. Those data files are possible canditates as input for Root histogram. 
+### Fetching Data for Visualization with Python Client for Hive
+Python Client `pyhs2` executes query via HiveServer2 Thrift API then fetches the query result. At the end, it stores data files according to query result. Those data files are possible canditates as input for Root histogram.
 
 To install `pyhs2` dependencies run `python setup.py install` command in `./pyhs2` directory.
 
